@@ -16,6 +16,13 @@ public class Exercise001_ToWallAndBack {
     public void Run() throws Exception {
         Robot robot = new Robot(0);
         robot.draw();
+        robot.draw();
+        robot.draw();
+        robot.draw();
+        robot.draw();
+        robot.draw();
+        robot.draw();
+        robot.draw();
 
 
 
