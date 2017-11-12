@@ -1,0 +1,53 @@
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 2e0fb5b859359be2c93b5a4d687a15b30e6fa8a1)
++++ .idea/modules.xml	(revision bde79996ceb1ae020bebc31f839ec27fa931f3b7)
+@@ -4,6 +4,8 @@
+     <modules>
+       <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
++      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
++      <module fileurl="file://$PROJECT_DIR$/robot-exercise.iml" filepath="$PROJECT_DIR$/robot-exercise.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision bde79996ceb1ae020bebc31f839ec27fa931f3b7)
++++ .idea/vcs.xml	(revision bde79996ceb1ae020bebc31f839ec27fa931f3b7)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/test/java/ex/robot/test/Exercise001_ToWallAndBack.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/test/java/ex/robot/test/Exercise001_ToWallAndBack.java	(revision 2e0fb5b859359be2c93b5a4d687a15b30e6fa8a1)
++++ app/src/test/java/ex/robot/test/Exercise001_ToWallAndBack.java	(revision bde79996ceb1ae020bebc31f839ec27fa931f3b7)
+@@ -16,6 +16,13 @@
+     public void Run() throws Exception {
+         Robot robot = new Robot(0);
+         robot.draw();
++        robot.draw();
++        robot.draw();
++        robot.draw();
++        robot.draw();
++        robot.draw();
++        robot.draw();
++        robot.draw();
+ 
+ 
+ 
