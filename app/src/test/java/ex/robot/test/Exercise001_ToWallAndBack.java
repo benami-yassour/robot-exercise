@@ -6,6 +6,9 @@ import static org.junit.Assert.assertEquals;
 
 /**
  *  Setup:
+ *
+ *
+ *  
  *     Robot location: 0
  *     Balls: None
  *  Task: the robot should go to the right wall (10 steps) and back to location 0.
